@@ -10,4 +10,6 @@ public class Users {
 @Column(nullable = false, columnDefinition = "INT(10) UNSIGNED")
 private long id;
 @Column(nullable = false, unique = true)
+private String email;
+
 }
