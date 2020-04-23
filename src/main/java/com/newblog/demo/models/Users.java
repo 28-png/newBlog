@@ -11,5 +11,5 @@ public class Users {
 private long id;
 @Column(nullable = false, unique = true)
 private String email;
-
+@Column(nullable = false)
 }
