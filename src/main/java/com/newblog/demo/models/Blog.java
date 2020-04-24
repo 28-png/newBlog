@@ -8,4 +8,5 @@ public class Blog {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private long id;
+@Column
 }
