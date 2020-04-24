@@ -13,4 +13,5 @@ private long id;
 private String email;
 @Column(nullable = false)
 private String password;
+
 }
