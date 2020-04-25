@@ -10,6 +10,6 @@ public class Blog {
 private long id;
 @Column(nullable = false)
 private String description;
-@Column
+@Column(nullable = false)
 
 }
