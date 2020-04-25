@@ -1,6 +1,7 @@
 package com.newblog.demo.models;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -14,4 +15,5 @@ private String email;
 @Column(nullable = false)
 private String password;
 @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+private List<Blog> blog;
 }
