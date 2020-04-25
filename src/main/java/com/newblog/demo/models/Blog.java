@@ -12,6 +12,7 @@ private long id;
 private String description;
 @Column(nullable = false)
 private String body;
-@ManyToOne(fetch = FetchType.LAZY, )
+@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
+
 
 }
