@@ -14,6 +14,6 @@ private String description;
 private String body;
 @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
 @JoinColumn(name = "user_id")
-
+private Users user;
 
 }
