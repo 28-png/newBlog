@@ -12,6 +12,6 @@ private long id;
 private String description;
 @Column(nullable = false)
 private String body;
-@ManyToOne
+@ManyToOne(fetch = FetchType.LAZY, )
 
 }
