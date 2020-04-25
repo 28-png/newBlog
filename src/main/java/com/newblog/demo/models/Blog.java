@@ -13,6 +13,7 @@ private String description;
 @Column(nullable = false)
 private String body;
 @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
-@JoinColumn
+@JoinColumn(name = "user_id")
+
 
 }
