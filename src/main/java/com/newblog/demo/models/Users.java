@@ -28,6 +28,10 @@ this.blog = blog;
 public Users(Users copy) {
 id = copy.id;
 email = copy.email;
+password = copy.password;
+blog = copy.blog;
 }
+
+
 
 }
