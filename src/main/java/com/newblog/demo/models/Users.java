@@ -21,7 +21,8 @@ public Users() {}
 
 public Users(String email, String password, List<Blog> blog) {
 this.email = email;
-
+this.password = password;
+this.blog = blog;
 }
 
 }
