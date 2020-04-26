@@ -12,7 +12,7 @@ private long id;
 private String description;
 @Column(nullable = false)
 private String body;
-@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
+@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
 @JoinColumn(name = "user_id")
 private Users user;
 

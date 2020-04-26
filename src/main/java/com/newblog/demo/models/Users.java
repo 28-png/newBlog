@@ -14,6 +14,6 @@ private long id;
 private String email;
 @Column(nullable = false)
 private String password;
-@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+@OneToMany(cascade = CascadeType.ALL, mappedBy = "user", orphanRemoval = true, fetch = FetchType.EAGER)
 private List<Blog> blog;
 }
