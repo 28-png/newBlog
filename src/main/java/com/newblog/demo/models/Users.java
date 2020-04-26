@@ -19,6 +19,6 @@ private List<Blog> blog;
 
 public Users() {}
 
-
+public Users(String email)
 
 }
