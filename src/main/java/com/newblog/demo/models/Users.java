@@ -25,4 +25,9 @@ this.password = password;
 this.blog = blog;
 }
 
+public Users(Users copy) {
+id = copy.id;
+email = copy.email;
+}
+
 }
