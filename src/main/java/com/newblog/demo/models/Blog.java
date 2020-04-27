@@ -16,4 +16,6 @@ private String body;
 @JoinColumn(name = "user_id")
 private Users user;
 
+
+
 }
