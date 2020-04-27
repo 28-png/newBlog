@@ -56,6 +56,8 @@ public void setPassword(String password) {
     this.password = password;
 }
 
-
+public List<Blog> getBlog(List<Blog> blog) {
+    return blog;
+}
 
 }
