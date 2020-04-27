@@ -60,6 +60,8 @@ public List<Blog> getBlog() {
     return blog;
 }
 
-public void
+public void setBlog(List<Blog> blog) {
+    this.blog = blog;
+}
 
 }
