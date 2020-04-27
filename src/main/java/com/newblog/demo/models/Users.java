@@ -56,10 +56,10 @@ public void setPassword(String password) {
     this.password = password;
 }
 
-public List<Blog> getBlog(List<Blog> blog) {
+public List<Blog> getBlog() {
     return blog;
 }
 
-
+public void
 
 }
