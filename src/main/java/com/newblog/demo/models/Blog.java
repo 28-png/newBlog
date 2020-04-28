@@ -24,6 +24,8 @@ this.body = body;
 this.user = user;
 }
 
-
+public long getId() {
+    return id;
+}
 
 }
