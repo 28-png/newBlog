@@ -20,7 +20,8 @@ public Blog() {}
 
 public Blog(String description, String body, Users user) {
 this.description = description;
-
+this.body = body;
+this.user = user;
 }
 
 }
