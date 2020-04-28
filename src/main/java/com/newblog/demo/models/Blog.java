@@ -18,7 +18,7 @@ private Users user;
 
 public Blog() {}
 
-public Blog(String description) {
+public Blog(String description, String body, Users user) {
 
 }
 
