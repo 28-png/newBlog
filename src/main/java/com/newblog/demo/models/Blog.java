@@ -48,6 +48,8 @@ public void setBody(String body) {
     this.body = body;
 }
 
-
+public Users getUser() {
+    return user;
+}
 
 }
