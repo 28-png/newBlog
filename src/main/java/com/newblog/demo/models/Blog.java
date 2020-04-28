@@ -18,6 +18,8 @@ private Users user;
 
 public Blog() {}
 
+public Blog(String description) {
 
+}
 
 }
