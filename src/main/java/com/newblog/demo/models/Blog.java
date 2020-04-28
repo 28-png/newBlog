@@ -40,4 +40,8 @@ public void setDescription(String description) {
     this.description = description;
 }
 
+public String getBody() {
+    return body;
+}
+
 }
