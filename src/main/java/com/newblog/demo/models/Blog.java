@@ -21,10 +21,11 @@ private List<Favorites> favorites;
 
 public Blog() {}
 
-public Blog(String description, String body, Users user) {
+public Blog(String description, String body, Users user, List<Favorites> favorites) {
 this.description = description;
 this.body = body;
 this.user = user;
+
 }
 
 public long getId() {
