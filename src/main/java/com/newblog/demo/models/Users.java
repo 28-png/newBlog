@@ -16,6 +16,8 @@ private String email;
 private String password;
 @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", orphanRemoval = true, fetch = FetchType.EAGER)
 private List<Blog> blog;
+@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+private List<Favorites> favorites;
 
 public Users() {}
 
