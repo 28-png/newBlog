@@ -72,7 +72,9 @@ public List<Favorites> getFavorites() {
     return favorites;
 }
 
-
+public void setFavorites(List<Favorites> favorites) {
+    this.favorites = favorites;
+}
 
 
 }
