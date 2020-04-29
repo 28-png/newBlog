@@ -10,6 +10,6 @@ public class Favorites {
 private long id;
 @Column(nullable = false)
 private String description;
-
+@Column(nullable = false)
 
 }
