@@ -1,6 +1,7 @@
 package com.newblog.demo.models;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "blog")
@@ -15,6 +16,8 @@ private String body;
 @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
 @JoinColumn(name = "user_id")
 private Users user;
+@OneToMany(cascade = CascadeType.ALL, mappedBy = "blog")
+private List<Favorites> favorites;
 
 public Blog() {}
 
