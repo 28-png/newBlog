@@ -68,4 +68,11 @@ public void setBlog(List<Blog> blog) {
     this.blog = blog;
 }
 
+public List<Favorites> getFavorites() {
+    return favorites;
+}
+
+
+
+
 }
