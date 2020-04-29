@@ -21,10 +21,11 @@ private List<Favorites> favorites;
 
 public Users() {}
 
-public Users(String email, String password, List<Blog> blog) {
+public Users(String email, String password, List<Blog> blog, List<Favorites> favorites) {
 this.email = email;
 this.password = password;
 this.blog = blog;
+this.favorites = favorites;
 }
 
 public Users(Users copy) {
