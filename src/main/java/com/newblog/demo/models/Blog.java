@@ -25,7 +25,7 @@ public Blog(String description, String body, Users user, List<Favorites> favorit
 this.description = description;
 this.body = body;
 this.user = user;
-
+this.favorites = favorites;
 }
 
 public long getId() {
@@ -60,4 +60,11 @@ public void setUser(Users user) {
     this.user = user;
 }
 
+public List<Favorites> getFavorites() {
+    return favorites;
+}
+
+public void setFavorites(List<Favorites> favorites) {
+    this.favorites = favorites;
+}
 }
