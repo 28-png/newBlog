@@ -33,6 +33,7 @@ id = copy.id;
 email = copy.email;
 password = copy.password;
 blog = copy.blog;
+favorites = copy.favorites;
 }
 
 public long getId() {
