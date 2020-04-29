@@ -12,6 +12,13 @@ private long id;
 private String description;
 @Column(nullable = false)
 private String body;
+    @ManyToOne
+//        (fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
+    @JoinColumn(name = "user_id")
+    private Users user;
 
+    @ManyToOne
+    @JoinColumn(name = "blog_id")
+    private Blog blog;
 
 }
