@@ -19,7 +19,7 @@ private List<Blog> blog;
 @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 private List<Favorites> favorites;
 @Column(nullable = false, columnDefinition = "TEXT", name = "profile_image")
-private String ProfileImage;
+private String profileImage;
 
 public Users() {}
 
@@ -28,7 +28,7 @@ this.email = email;
 this.password = password;
 this.blog = blog;
 this.favorites = favorites;
-this.ProfileImage = profileImage;
+this.profileImage = profileImage;
 }
 
 public Users(Users copy) {
@@ -37,7 +37,7 @@ email = copy.email;
 password = copy.password;
 blog = copy.blog;
 favorites = copy.favorites;
-favorites = copy.favorites;
+ profileImage = copy.profileImage;
 }
 
 public long getId() {
@@ -81,7 +81,7 @@ public void setFavorites(List<Favorites> favorites) {
 }
 
 public String getProfileImage() {
-
+return profileImage;
 }
 
 
