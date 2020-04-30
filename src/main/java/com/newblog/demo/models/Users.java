@@ -28,6 +28,7 @@ this.email = email;
 this.password = password;
 this.blog = blog;
 this.favorites = favorites;
+this.ProfileImage = profileImage;
 }
 
 public Users(Users copy) {
