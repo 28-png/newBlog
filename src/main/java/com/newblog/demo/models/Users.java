@@ -80,7 +80,9 @@ public void setFavorites(List<Favorites> favorites) {
     this.favorites = favorites;
 }
 
+public String getProfileImage() {
 
+}
 
 
 }
