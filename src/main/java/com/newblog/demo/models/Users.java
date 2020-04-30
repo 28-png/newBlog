@@ -84,5 +84,8 @@ public String getProfileImage() {
 return profileImage;
 }
 
+public void setProfileImage(String profileImage) {
+
+}
 
 }
