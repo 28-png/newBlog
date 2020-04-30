@@ -18,8 +18,8 @@ private String password;
 private List<Blog> blog;
 @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 private List<Favorites> favorites;
-@Column(nullable = false, columnDefinition = "TEXT")
-
+@Column(nullable = false, columnDefinition = "TEXT", name = "profile_image")
+private String ProfileImage;
 
 public Users() {}
 
