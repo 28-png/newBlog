@@ -23,7 +23,7 @@ private String ProfileImage;
 
 public Users() {}
 
-public Users(String email, String password, List<Blog> blog, List<Favorites> favorites) {
+public Users(String email, String password, List<Blog> blog, List<Favorites> favorites, String profileImage) {
 this.email = email;
 this.password = password;
 this.blog = blog;
