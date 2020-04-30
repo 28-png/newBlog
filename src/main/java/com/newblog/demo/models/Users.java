@@ -37,6 +37,7 @@ email = copy.email;
 password = copy.password;
 blog = copy.blog;
 favorites = copy.favorites;
+favorites = copy.favorites;
 }
 
 public long getId() {
