@@ -18,6 +18,7 @@ private String password;
 private List<Blog> blog;
 @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 private List<Favorites> favorites;
+@Column
 
 public Users() {}
 
