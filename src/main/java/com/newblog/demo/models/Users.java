@@ -92,4 +92,10 @@ public void setProfileImage(String profileImage) {
 this.profileImage = profileImage;
 }
 
+public String getUserRole() {
+    return userRole;
+}
+
+
+
 }
