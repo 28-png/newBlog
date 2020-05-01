@@ -20,7 +20,8 @@ private List<Blog> blog;
 private List<Favorites> favorites;
 @Column(nullable = false, columnDefinition = "TEXT", name = "profile_image")
 private String profileImage;
-@Column(nullable = false, )
+@Column(nullable = false, name = "user_role")
+private String userRole;
 
 public Users() {}
 
