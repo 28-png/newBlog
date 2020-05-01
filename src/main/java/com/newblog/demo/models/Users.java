@@ -25,12 +25,13 @@ private String userRole;
 
 public Users() {}
 
-public Users(String email, String password, List<Blog> blog, List<Favorites> favorites, String profileImage) {
+public Users(String email, String password, List<Blog> blog, List<Favorites> favorites, String profileImage, String userRole) {
 this.email = email;
 this.password = password;
 this.blog = blog;
 this.favorites = favorites;
 this.profileImage = profileImage;
+this.userRole = userRole;
 }
 
 public Users(Users copy) {
