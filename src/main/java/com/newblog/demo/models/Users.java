@@ -41,6 +41,7 @@ password = copy.password;
 blog = copy.blog;
 favorites = copy.favorites;
  profileImage = copy.profileImage;
+ userRole = copy.userRole;
 }
 
 public long getId() {
