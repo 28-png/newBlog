@@ -1,7 +1,9 @@
 package com.newblog.demo;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @Configuration
-public class SecurityConfiguration  {
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+
 }
