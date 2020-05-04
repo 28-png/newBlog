@@ -1,5 +1,6 @@
 package com.newblog.demo.services;
 
+import com.newblog.demo.models.UserWithRoles;
 import com.newblog.demo.models.Users;
 import com.newblog.demo.repo.UserRepo;
 import org.springframework.security.core.userdetails.UserDetails;
