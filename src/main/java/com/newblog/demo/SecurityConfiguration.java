@@ -1,4 +1,7 @@
 package com.newblog.demo;
 
-public class SecurityConfiguration {
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SecurityConfiguration  {
 }
