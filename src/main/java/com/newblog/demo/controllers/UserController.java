@@ -17,7 +17,7 @@ this.usersdao = users;
 @GetMapping("/sign-up")
 public String userSignupForm(Model model) {
     model.addAttribute("user", new Users());
-    return "users/sign-up";
+    return "redirect:/sign-up";
 }
 
 
