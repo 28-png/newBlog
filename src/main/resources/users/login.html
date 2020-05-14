@@ -6,29 +6,6 @@
 </head>
 <body>
 <nav th:replace="fragments/navbar.html :: visitor-navbar"></nav>
-<div class="card-container form-container">
-    <div class="card bg-light text-dark col-xl-6">
-        <div class="card-body sign-up-form">
-            <h5 class="card-title user-Form-Text">User Sign Up</h5>
-            <hr>
-            <form th:action="@{/sign-up}" method="POST" th:object="${user}">
-                <div class="col-xl-12">
-                </div>
-                <div class="col-xl-12">
-                    <label for="email">Email</label>
-                    <input th:field="*{email}"/>
-                </div>
 
-                <div class="col-xl-12">
-                    <label for="password">Password</label>
-                    <input type="password" th:field="*{password}"/>
-                </div>
-
-                <div class="col-xl-12">
-                    <input class="loginSign-btn sign-create-btn" value="Sign me up!" type="submit"/>
-                </div>
-            </form>
-
-        </div>
 </body>
 </html>
