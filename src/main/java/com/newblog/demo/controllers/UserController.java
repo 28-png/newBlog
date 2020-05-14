@@ -14,10 +14,10 @@ public UserController(UserRepo users) {
 this.usersdao = users;
 }
 
-@GetMapping("/signup")
+@GetMapping("/sign-up")
 public String userSignupForm(Model model) {
     model.addAttribute("user", new Users());
-    return "users/signup";
+    return "users/sign-up";
 }
 
 
