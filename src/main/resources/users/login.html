@@ -6,6 +6,32 @@
 </head>
 <body>
 <nav th:replace="fragments/navbar.html :: visitor-navbar"></nav>
+<form class="card-text" th:action="@{/login}" method="post">
 
+    <div class="form-body">
+        <div class="form-group row">
+            <label class="col-sm-8   col-form-label" for="email">Email</label>
+            <div class="col-sm-8 ">
+                <input id="email" name="email" type="text"/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-8  col-form-label" for="password">Password</label>
+            <div class="col-sm-8 ">
+                <input id="password" name="password" type="password"/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-8 ">
+                <input class="loginSign-btn" type="submit" value="Log In"/>
+                <a class="linkSignUp" href="/sign-up" style="color: lightseagreen; font-style: italic">Don't
+                    have a login? Sign-Up!</a>
+
+            </div>
+        </div>
+    </div>
+</form>
 </body>
 </html>
